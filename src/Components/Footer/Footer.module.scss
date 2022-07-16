@@ -1,0 +1,29 @@
+.footer{
+    height: 110px;
+    background: #171717;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    .footerFlexLeft{
+        display: flex;
+        align-items: center;
+        .logo{
+            width:28px; 
+            height:23px;
+        }
+        >h3{color: #ECECEC;font-size: 18px;font-weight: 700;margin-left: 20px; cursor: pointer;}
+        .rights{margin-left: 20px;font-size: 14px;}
+    }
+    .footerFlexRight{
+        display: flex;
+        align-items: center;
+        >p{
+            font-size: 14px;
+            margin-right: 50px;
+        }
+        .footerLogos{
+            cursor: pointer;
+            padding: 0 10px;
+        }
+    }
+}

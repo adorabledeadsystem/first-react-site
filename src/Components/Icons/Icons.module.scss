@@ -1,0 +1,21 @@
+.iconsWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    .iconsFlex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .icon{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 50px;
+            .iconText{color: white; margin-top: 15px;}
+        }
+    }
+
+
+}
