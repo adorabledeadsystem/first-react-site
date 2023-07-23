@@ -1,5 +1,5 @@
 .subscriptions{
-    padding-top: 150px;
+    padding-top:50px;
     margin-bottom: 50px;
     h1{margin-bottom: 70px;}
     .cardsFlex{
@@ -15,7 +15,7 @@
             background: #1F2631;
             box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
             border-radius: 5px;
-
+            
             h3{font-size: 36px;font-weight: 700;color: white;margin-bottom: 30px;margin-top: 15px;}
             h6{font-size: 24px;font-weight: 500;color: white;margin-bottom: 30px;}
             p{font-size: 21px;font-weight: 300;color: #ABABAB;margin-bottom: 15px;}
@@ -29,6 +29,15 @@
                 background: #00C5FF;
                 border-radius: 5px;
             }
+        }
+        .active {
+            background: #00C5FF;
+            button{
+            background: #141C24;
+            color: #F1F8FF;
+            }
+            h3, h6, p{
+                color: #141C24;            }
         }
     }
 }

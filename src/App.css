@@ -11,6 +11,9 @@ button{
   outline: none;
   cursor: pointer;
 }
+label{
+  color: white;
+}
 h1{
   font-size: 39px; color: white; text-align: center;
 }

@@ -10,12 +10,11 @@ import AuthPage from './Pages/AuthPage';
 import DownloadPage from './Pages/DownloadPage';
 
 function App() {
-  //const [authText, setText] = useState(['Вход', 'Регистрация'])
   return (
     <div>
       <Router>
         <Routes>
-          <Route path='/' element={[<Header />,<Subscriptions />,<SimpleSlider />,<Icons />,<Map />,<Footer />]}/>
+          <Route path='/' element={[<Header />,<SimpleSlider />,<Subscriptions />,<Icons />,<Map />,<Footer />]}/>
           <Route path='/DownloadPage' element={<DownloadPage/>}/>
           <Route path='/AuthPage' element={<AuthPage/>}/>
         </Routes>
